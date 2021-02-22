@@ -1,0 +1,77 @@
+body {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Gaegu', cursive;
+	font-weight: 300;
+	background-color: rgb(240, 240, 240);
+	margin-left: 24px;
+	margin-right: 24px;
+}
+h1 {
+	color: white;
+	background: rgb(0, 250, 0);
+	text-transform: uppercase;
+}
+h2 {
+	color: white;
+	background: rgb(255, 89, 13);
+}
+p {
+	font-size: 18px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	}
+.button {
+	width: 60px;
+	height: 60px;
+	transition: color 0.3s ease;
+	border-radius: 50%;
+	background-color: rgb(230, 230, 230);
+	transition: color 0.3s ease;
+	}
+.button:hover {
+	color: red;
+    text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.shadow {
+	box-shadow: 2px 2px 1px  black;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+} 
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+		margin: 30px auto;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		margin: 10px auto;
+	}
+}
+@media (max-width: 350px) {
+	.container {
+		width: 250px;
+		margin: 5px auto;
+	}
+}
